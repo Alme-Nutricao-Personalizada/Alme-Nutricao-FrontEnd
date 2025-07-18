@@ -1,0 +1,59 @@
+.container-existe-caminho-diferente {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Helvetica";
+}
+
+.texto-existe-caminho-diferente {
+  font-size: 1rem;
+  font-weight: 300;
+  max-width: 100%;
+  margin: 1% 10% 5%;
+  line-height: 1.3;
+}
+
+.container-img-existe-caminho-diferente {
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-existe-caminho-diferente {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .texto-existe-caminho-diferente {
+    font-size: 1.5rem;
+    max-width: 50rem;
+    margin-top: 0;
+    margin-bottom: 2%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .texto-existe-caminho-diferente {
+    font-size: 2rem;
+    max-width: 60rem;
+    margin-bottom: 2%;
+  }
+
+  .container-img-existe-caminho-diferente {
+    width: 35vw;
+    overflow: hidden;
+    display: block;
+    position: relative;
+  }
+
+  .img-existe-caminho-diferente {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 55% top;
+    display: block;
+  }
+}

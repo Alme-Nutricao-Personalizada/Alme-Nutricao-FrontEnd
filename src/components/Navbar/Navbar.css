@@ -1,0 +1,161 @@
+.container-navbar {
+  width: 100%;
+  background-color: black;
+  position: relative;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  font-family: "Helvetica";
+}
+
+.overlay-navbar {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.44);
+  z-index: 0;
+  transition: all 0.3s ease;
+  height: 40vh;
+}
+
+.top-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 10%;
+  position: relative;
+  z-index: 1;
+}
+
+.logo-navbar img {
+  width: 20%;
+  transition: all 0.3s ease;
+}
+
+.menu-toggle-navbar {
+  display: block;
+  background: none;
+  border: none;
+  font-size: 2.5rem;
+  color: white;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.nav-menu-navbar {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.nav-menu-navbar.open {
+  max-height: 100vh; 
+}
+
+.menu-list-navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 1rem 2rem;
+  height: 46vh;
+}
+
+.menu-list-navbar a {
+  display: block;
+  padding: 10px 0;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 300;
+  transition: all 0.3s ease;
+}
+
+.menu-list-navbar a.active {
+  color: white !important;
+  font-weight: bold;
+}
+
+.container-navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.container-navbar.scrolled .overlay-navbar {
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container-navbar.scrolled .logo-navbar img {
+  height: 25px;
+  opacity: 0.9;
+}
+
+@media (min-width: 768px) {
+  .overlay-navbar {
+    height: 100vh;
+  }
+
+  .top-navbar {
+    padding: 2% 5%;
+  }
+
+  .menu-toggle-navbar {
+    display: none;
+  }
+
+  .nav-menu-navbar {
+    position: static;
+    background-color: transparent;
+    width: auto;
+    max-height: none;
+  }
+
+  .menu-list-navbar {
+    justify-content: end;
+    flex-direction: row;
+    padding: 0;
+    max-height: 20vh;
+  }
+
+  .menu-list-navbar a {
+    color: rgba(255, 255, 255, 0.515);
+    padding: 8px 12px;
+    border-bottom: none;
+    font-size: 1.1rem;
+    margin-block: auto;
+  }
+
+  .container-navbar.scrolled .overlay-navbar {
+    height: 80px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .top-navbar {
+    max-width: 1920px;
+    padding: 1% 10%;
+    margin: 0 auto;
+  }
+
+  .menu-list-navbar {
+    gap: 50px;
+  }
+
+  .menu-list-navbar a {
+    font-size: 1.5rem;
+  }
+
+  .logo-navbar img {
+    height: auto;
+    width: 20%;
+  }
+
+  .container-navbar.scrolled .logo-navbar img {
+    height: 40px;
+    width: auto;
+  }
+}

@@ -1,0 +1,109 @@
+.container-aquecimento-por-categoria {
+  color: #313131;
+  font-family: 'Helvetica';
+}
+
+.container-preparacoes-aquecimento-por-categoria {
+  padding: 1.5rem;
+  margin-inline: 5%;
+}
+
+.container-preparacoes-aquecimento-por-categoria h1 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-block: 1.5rem;
+}
+
+.container-preparacoes {
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.container-preparacoes-titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  background: #f8f8f8;
+  border: none;
+  cursor: pointer;
+  font-family: 'Helvetica';
+  font-size: 1rem;
+  text-align: left;
+}
+
+.container-preparacoes-titulo b {
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.arrow-icon {
+  transition: transform 0.2s ease;
+}
+
+.container-preparacoes-titulo[aria-expanded="true"] .arrow-icon {
+  transform: rotate(180deg);
+}
+
+.container-preparacoes-content {
+  padding: 0 1rem;
+  background: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.container-preparacoes-titulo[aria-expanded="true"] + .container-preparacoes-content {
+  max-height: 1000px;
+  padding: 1rem;
+}
+
+.container-preparacoes-content p {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  .container-preparacoes-aquecimento-por-categoria {
+    padding: 2rem;
+    margin-inline: 10%;
+  }
+
+  .container-preparacoes-aquecimento-por-categoria h1 {
+    font-size: 1.5rem;
+  }
+
+  .container-preparacoes-titulo {
+    font-size: 1.1rem;
+    padding: 1.2rem;
+  }
+
+  .container-preparacoes-content p {
+    font-size: 1.05rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-preparacoes-aquecimento-por-categoria {
+    padding: 2.5rem;
+    margin-inline: 15%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .container-preparacoes-aquecimento-por-categoria h1 {
+    font-size: 1.8rem;
+  }
+
+  .container-preparacoes-titulo {
+    font-size: 1.2rem;
+  }
+
+  .container-preparacoes-content p {
+    font-size: 1.1rem;
+  }
+}

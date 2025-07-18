@@ -1,0 +1,109 @@
+.container-politica-privacidade {
+  padding: 20px;
+  margin-inline: 5%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Helvetica';
+}
+
+.titulo-politica-privacidade {
+  text-align: center;
+}
+
+.titulo-politica-privacidade p {
+  font-size: 24px;
+  margin-block: 0;
+}
+
+.container-data-atualizacao {
+  margin-block: 20px;
+  color: #313131;
+  font-size: 1rem;
+}
+
+.container-data-atualizacao b{
+  font-weight: bold;
+}
+
+.container-data-atualizacao p{
+  margin: 0;
+}
+
+.container-topicos-politica-privacidade {
+  font-size: 1rem;
+  color: #313131;
+  font-weight: 300;
+}
+
+.container-topicos-politica-privacidade h1,
+.container-topicos-politica-privacidade h2 {
+  font-size: 1.1rem;
+}
+
+.container-topicos-politica-privacidade > * {
+  margin-top: 20px;
+}
+
+.contatos-alme-nutricao-contato {
+  font-size: 1rem;
+  color: #313131;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.contatos-alme-nutricao-contato h1 {
+  font-size: 1.1rem;
+  color: #313131;
+}
+
+.container-conheca-politica-privacidade-dados h1,
+.container-conheca-politica-privacidade-dados p {
+  display: inline;
+}
+
+.container-conheca-politica-privacidade-alme-nutricao > *,
+.container-conheca-politica-privacidade-contato > * {
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .titulo-politica-privacidade p {
+    font-size: 28px;
+  }
+
+  .container-topicos-politica-privacidade,
+  .contatos-alme-nutricao-contato {
+    font-size: 1.1rem;
+  }
+
+  .container-topicos-politica-privacidade h1,
+  .container-topicos-politica-privacidade h2,
+  .contatos-alme-nutricao-contato h1 {
+    font-size: 1.2rem;
+  }
+
+  .container-politica-privacidade {
+    margin-inline: 10%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .titulo-politica-privacidade p {
+    font-size: 32px;
+  }
+
+  .container-topicos-politica-privacidade,
+  .contatos-alme-nutricao-contato {
+    font-size: 1.2rem;
+  }
+
+  .container-topicos-politica-privacidade h1,
+  .container-topicos-politica-privacidade h2,
+  .contatos-alme-nutricao-contato h1 {
+    font-size: 1.3rem;
+  }
+
+  .container-politica-privacidade {
+    margin-inline: 15%;
+  }
+}

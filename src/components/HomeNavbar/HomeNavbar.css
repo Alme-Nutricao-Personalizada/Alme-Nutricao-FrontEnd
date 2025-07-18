@@ -1,0 +1,184 @@
+.container-homenavbar {
+  width: 100%;
+  min-height: 80vh;
+  background-image: url("../../assets/imgsMobile/imgMobileBackgroundHome.jpg");
+  background-size: cover;
+  background-position: 45% center;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.container-homenavbar.loading {
+  background-color: #f0f0f0;
+}
+
+.container-homenavbar.loaded {
+  transition: opacity 0.5s ease;
+}
+
+.overlay-homenavbar {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.44);
+  z-index: 0;
+  transition: all 0.3s ease;
+  min-height: 80vh;
+}
+
+.top-homenavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13% 13%;
+  position: relative;
+  z-index: 1;
+}
+
+.logo-homenavbar img {
+  width: 25%;
+  transition: all 0.3s ease;
+}
+
+.menu-toggle-homenavbar {
+  display: block;
+  background: none;
+  border: none;
+  font-size: 2.5rem;
+  color: white;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.nav-menu-homenavbar {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 1000;
+}
+
+.nav-menu-homenavbar.open {
+  max-height: calc(100vh - 80px);
+  height: auto;
+  overflow: hidden;
+}
+
+.menu-list-homenavbar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+  height: calc(100vh - 120px);
+  overflow: hidden;
+}
+
+.menu-list-homenavbar a {
+  font-family: "Helvetica";
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 300;
+  transition: all 0.3s ease;
+  white-space: normal;
+}
+
+.menu-list-homenavbar a.active {
+  color: #000 !important;
+  font-weight: bold;
+}
+
+.container-homenavbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.7);
+  min-height: 80vh;
+}
+
+.container-homenavbar.scrolled .overlay-homenavbar {
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (min-width: 768px) {
+  .container-homenavbar {
+    min-height: 100vh;
+    background-image: url("../../assets/imgsDesktop/imgDesktopBackgroundHome.jpg");
+  }
+
+  .overlay-homenavbar {
+    min-height: 100vh;
+  }
+
+  .top-homenavbar {
+    padding: 5% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .menu-toggle-homenavbar {
+    display: none;
+  }
+
+  .nav-menu-homenavbar {
+    position: static;
+    background-color: transparent;
+    width: auto;
+    max-height: none;
+    display: block;
+    justify-items: end;
+    overflow: visible !important;
+  }
+
+  .menu-list-homenavbar {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible !important;
+  }
+
+  .menu-list-homenavbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding: 5% 12px;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+  }
+
+  .menu-list-homenavbar a:hover {
+    opacity: 0.8;
+  }
+
+  .menu-list-homenavbar a.active {
+    color: white !important;
+  }
+
+  .container-homenavbar.scrolled {
+    min-height: 100vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .menu-list-homenavbar {
+    gap: 50px;
+  }
+
+  .menu-list-homenavbar a {
+    font-size: 1.6rem;
+    position: relative;
+  }
+}

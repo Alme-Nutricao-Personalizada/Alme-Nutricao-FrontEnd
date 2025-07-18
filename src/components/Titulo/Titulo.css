@@ -1,0 +1,24 @@
+.container-titulo h1 {
+  font-family: 'Helvetica';
+  font-weight: bold;
+  text-align: center;
+  margin: 3rem auto 1%;
+  font-size: 1.2rem;
+  color: rgb(144, 144, 144);
+}
+
+@media (min-width: 768px) {
+  .container-titulo h1 {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-titulo h1 {
+    font-size: 2.5rem;
+    margin-top: 3.75rem;
+    margin-bottom: 1.25rem;
+  }
+}
