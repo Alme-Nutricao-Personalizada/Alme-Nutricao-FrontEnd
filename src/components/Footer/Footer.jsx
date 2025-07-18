@@ -46,7 +46,7 @@ function Footer() {
             </a>
           </p>
         </div>
-        <div className="mais-informacoes-contato">
+        <div>
           <h3>Mais informações</h3>
           <Link to="/politicaPrivacidade" onClick={() => window.scrollTo(0, 0)}>
             Política de privacidade
