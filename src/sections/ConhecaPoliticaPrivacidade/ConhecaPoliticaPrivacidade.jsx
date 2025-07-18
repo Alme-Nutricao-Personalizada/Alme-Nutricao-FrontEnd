@@ -1,4 +1,4 @@
-import Titulo from "../../components/Titulo/TItulo";
+import Titulo from "../../components/Titulo/Titulo";
 import "./ConhecaPoliticaPrivacidade.css";
 
 function ConhecaPoliticaPrivacidade() {

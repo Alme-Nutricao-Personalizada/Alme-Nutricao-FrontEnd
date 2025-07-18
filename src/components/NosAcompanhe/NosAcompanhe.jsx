@@ -2,7 +2,7 @@ import './NosAcompanhe.css';
 import imgNosAcompanhe1 from '../../assets/imgsDesktop/imgDesktopNosAcompanhe1.webp';
 import imgNosAcompanhe2 from '../../assets/imgsDesktop/imgDesktopNosAcompanhe2.webp';
 import imgNosAcompanhe3 from '../../assets/imgsDesktop/imgDesktopNosAcompanhe3.webp';
-import Titulo from '../Titulo/TItulo';
+import Titulo from '../Titulo/Titulo';
 
 function NosAcompanhe() {
     return (

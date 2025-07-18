@@ -1,5 +1,5 @@
 import "./EntreEmContato.css";
-import Titulo from "../../components/Titulo/TItulo";
+import Titulo from "../../components/Titulo/Titulo";
 import { useState, useEffect } from "react";
 import mobileBg from "../../assets/imgsMobile/imgSacolaFechando.jpg";
 import desktopBg from "../../assets/imgsDesktop/imgDesktopSacolaFechando.jpg";

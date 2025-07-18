@@ -1,6 +1,6 @@
 import './QuemSomos.css';
 import imgQuemSomos from '../../../assets/imgsDesktop/imgDesktopComputador.jpg';
-import Titulo from '../../../components/Titulo/TItulo';
+import Titulo from '../../../components/Titulo/Titulo';
 
 function QuemSomos (){
     return(

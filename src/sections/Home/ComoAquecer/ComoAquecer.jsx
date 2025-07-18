@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Titulo from "../../../components/Titulo/TItulo";
+import Titulo from "../../../components/Titulo/Titulo";
 import "./ComoAquecer.css";
 
 function ComoAquecer() {

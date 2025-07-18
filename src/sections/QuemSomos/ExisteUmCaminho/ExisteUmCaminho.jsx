@@ -1,6 +1,6 @@
 import "./ExisteUmCaminho.css";
 import imgComputador from "../../../assets/imgsDesktop/imgDesktopComputador.jpg";
-import Titulo from "../../../components/Titulo/TItulo";
+import Titulo from "../../../components/Titulo/Titulo";
 
 function ExisteUmCaminho() {
   return (
