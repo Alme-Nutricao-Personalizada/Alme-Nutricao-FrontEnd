@@ -3,7 +3,7 @@ import logo from "../../assets/logoAlme.png";
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
-const Navbar = ({ id }) => {
+function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
 
@@ -12,14 +12,14 @@ const Navbar = ({ id }) => {
   };
 
   return (
-    <header className="container-navbar" id={id}>
+    <header className="container-navbar">
       <div className="top-navbar">
         <div className="logo-navbar">
           <Link to="/"><img src={logo} alt="Logo da Empresa" className="logo-image-navbar" /></Link>
         </div>
 
         <button
-          className="menu-toggle-homenavbar"
+          className="menu-toggle-navbar"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           {menuOpen ? "✕" : "☰"}
