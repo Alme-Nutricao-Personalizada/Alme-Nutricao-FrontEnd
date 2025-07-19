@@ -1,11 +1,9 @@
 import { Link } from "react-router-dom";
-import Titulo from "../../../components/Titulo/Titulo";
 import "./ComoAquecer.css";
 
 function ComoAquecer() {
   return (
     <div className="como-aquecer">
-      <Titulo titulo="Como aquecer?" />
 
       <div className="container-como-aquecer">
         <div className="overlay-como-aquecer" />
