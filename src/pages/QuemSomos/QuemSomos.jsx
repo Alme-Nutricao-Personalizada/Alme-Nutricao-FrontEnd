@@ -3,10 +3,11 @@ import ExisteUmCaminho from "../../sections/QuemSomos/ExisteUmCaminho/ExisteUmCa
 import OndeTudoComecou from "../../sections/QuemSomos/OndeTudoComecou/OndeTudoComecou";
 import Historia from "../../sections/QuemSomos/Historia/Historia";
 import Footer from "../../components/Footer/Footer";
+import '../page.css';
 
 function QuemSomos() {
   return (
-    <div>
+    <div className='page'>
       <Navbar />
       <OndeTudoComecou />
       <ExisteUmCaminho />

@@ -5,16 +5,14 @@
   margin-left: calc(-50vw + 50%);
   display: flex;
   overflow: hidden;
-  font-family: 'Helvetica';
+  font-family: "Helvetica";
 }
 
-/* Estado de carregamento */
 .imgFechandoSacola.loading {
-  background-color: #f0f0f0; /* Cor de fundo temporária */
+  background-color: #f0f0f0;
 }
 
 .imgFechandoSacola.loaded {
-  /* As imagens de background originais já estarão aplicadas */
   transition: opacity 0.5s ease;
 }
 
@@ -57,7 +55,7 @@
 .container-texto-entre-em-contato p {
   line-height: 1.5;
   margin-bottom: 1rem;
-  font-family: 'Helvetica';
+  font-family: "Helvetica";
   font-weight: 300;
 }
 
@@ -115,24 +113,29 @@
   }
 
   .container-img-entre-em-contato {
-  position: relative;
-  width: 100vw;
-  height: 50vh;
-  margin-left: calc(-50vw + 50%);
-  display: flex;
-  overflow: hidden;
-  font-family: 'Helvetica';
-}
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    margin-left: calc(-50vw + 50%);
+    display: flex;
+    overflow: hidden;
+    font-family: "Helvetica";
+  }
 
   .imgFechandoSacola {
-  background-image: url("../../assets/imgsDesktop/imgDesktopSacolaFechando.jpg");
-  background-repeat: no-repeat;
-  width: 100%;
-  background-position: 45% center;
-}
+    background-image: url("../../assets/imgsDesktop/imgDesktopSacolaFechando.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: 45% center;
+  }
 }
 
 @media (min-width: 1024px) {
+  .container-img-entre-em-contato {
+    max-width: 1920px;
+    margin: auto;
+  }
+
   .container-entre-em-contato {
     max-width: 960px;
     padding: 2.5rem;

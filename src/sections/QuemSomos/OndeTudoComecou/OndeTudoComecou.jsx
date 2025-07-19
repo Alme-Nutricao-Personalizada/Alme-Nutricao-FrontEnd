@@ -27,7 +27,7 @@ function OndeTudoComecou() {
     }, []);
 
     return (
-        <div>
+        <div className='container-quem-somos-onde-tudo-comecou'>
             <Titulo titulo="ONDE TUDO COMEÇOU" />
             <div className='container-onde-tudo-comecou'>
                 <p className='text-onte-tudo-comecou'>Uma metodologia criada há mais de 10 anos, que une nutrição, praticidade e o 

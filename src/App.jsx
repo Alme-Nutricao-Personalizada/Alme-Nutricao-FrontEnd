@@ -5,6 +5,7 @@ import Contato from './pages/Contato/Contato';
 import ComoAquecer from './pages/ComoAquecer/ComoAquecer';
 import PoliticaPrivacidade from './pages/PoliticaPrivacidade/PoliticaPrivacidade';
 import AquecimentoPorCategoria from './sections/ComoAquecer/AquecimentoPorCategoria/AquecimentoPorCategoria';
+import './index.css';
 
 function App() {
   return (

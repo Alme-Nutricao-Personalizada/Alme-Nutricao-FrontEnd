@@ -27,7 +27,6 @@
   overflow: hidden;
 }
 
-/* Estilos base (mobile first) */
 .imgSuelieCris {
   background-image: url("../../../assets/imgsMobile/imgSuelieCris2.jpg");
   background-position: 40% 40%;
@@ -40,11 +39,10 @@
   transition: all 0.5s ease;
 }
 
-/* Estados de carregamento */
 .imgSuelieCris.loading {
   background-color: #f0f0f0;
   position: relative;
-  min-height: 40vh; /* Mantém a altura mínima */
+  min-height: 40vh;
 }
 
 .imgSuelieCris.loading::after {
@@ -65,18 +63,6 @@
   animation: fadeIn 0.8s ease-out;
 }
 
-/* Animações */
-@keyframes spin {
-  to { transform: translate(-50%, -50%) rotate(360deg); }
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-
-
 @media (min-width: 768px) {
   .text-onte-tudo-comecou {
     font-size: 1.5rem;
@@ -94,17 +80,20 @@
   }
 
   .container-imagem-suelie-cris {
-    width: 100vw;
+    max-width: 1920px; /* ou o valor desejado */
+    width: 100%;
+    height: 60vh; /* ajuste conforme necessário */
+    margin:auto; /* centraliza horizontalmente */
     overflow: hidden;
-    display: block;
     position: relative;
+    left: auto; /* remove o posicionamento forçado */
+    right: auto;
   }
 
   .imgSuelieCris {
     background-image: url("../../../assets/imgsDesktop/imgDesktopSuelieCris.jpg");
     width: 100%;
     height: 100%;
-    object-position: 55% top;
     display: block;
   }
 }

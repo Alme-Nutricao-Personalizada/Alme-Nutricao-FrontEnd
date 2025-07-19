@@ -126,7 +126,8 @@
   .container-historia {
     font-size: 1.2rem;
     padding: 2rem 5rem;
-    margin: 2% auto 0;
+    max-width: 1920px;
+    margin: 0 auto;
   }
 
   .titulo-historia,

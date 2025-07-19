@@ -3,10 +3,11 @@ import Navbar from '../../components/Navbar/Navbar';
 import InstrucoesAquecimento from '../../sections/ComoAquecer/InstrucoesAquecimento/InstrucoesAquecimento';
 import AquecimentoPorCategoria from '../../sections/ComoAquecer/AquecimentoPorCategoria/AquecimentoPorCategoria';
 import ImagensAquecimentoPorCategoria from '../../sections/ComoAquecer/ImagensAquecimentoPorCategoria/ImagensAquecimentoPorCategoria';
+import '../page.css';
 
 function ComoAquecer() {
     return (
-        <div>
+        <div className='page'>
             <Navbar />
             <InstrucoesAquecimento />
             <ImagensAquecimentoPorCategoria/>

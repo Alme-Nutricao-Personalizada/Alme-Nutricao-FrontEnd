@@ -4,10 +4,11 @@ import NosAcompanhe from "../../components/NosAcompanhe/NosAcompanhe";
 import ComoAquecer from "../../sections/Home/ComoAquecer/ComoAquecer";
 import Footer from "../../components/Footer/Footer";
 import IconeWhatsApp from "../../components/IconeWhatsApp/IconeWhatsApp";
+import '../page.css';
 
 function Home(){
     return(
-        <div>
+        <div className='page'>
             <HomeNavbar/>
             <QuemSomos/>
             <ComoAquecer/>

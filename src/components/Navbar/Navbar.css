@@ -154,6 +154,10 @@
     width: 20%;
   }
 
+  .container-navbar {
+    max-width: 1920px;
+  }
+
   .container-navbar.scrolled .logo-navbar img {
     height: 40px;
     width: auto;
