@@ -1,4 +1,4 @@
-name: Deploy para S3 + Invalidação CloudFront
+name: Deploy para S3
 
 on:
   push:
