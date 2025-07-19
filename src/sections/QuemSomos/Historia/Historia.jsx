@@ -139,7 +139,7 @@ function Historia() {
         <p>
           Nutrição com propósito, uma metodologia que une nutrição, praticidade
           e o sabor que você nunca imaginou que uma alimentação saudável poderia
-          ter..
+          ter.
         </p>
       </div>
     </div>
