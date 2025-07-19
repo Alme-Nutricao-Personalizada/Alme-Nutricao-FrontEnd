@@ -5,7 +5,7 @@ function ConhecaPoliticaPrivacidade() {
   return (
     <div className="container-politica-privacidade">
       <div className="titulo-politica-privacidade">
-        <Titulo titulo="CONHEÇA NOSSA" />
+        <Titulo titulo="Conheça nossa" />
         <p>Política de privacidade</p>
       </div>
 

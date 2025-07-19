@@ -7,7 +7,7 @@ import Titulo from '../Titulo/Titulo';
 function NosAcompanhe() {
     return (
         <div className='container-nos-acompanhe'>
-            <Titulo titulo="NOS ACOMPANHE NO INSTAGRAM"/>
+            <Titulo titulo="Nos acompanhe no Instagram"/>
             <div className='container-imgs-nos-acompanhe'>
                 <img src={imgNosAcompanhe1} alt="Nos Acompanhe 1" className='img-nos-acompanhe' />
                 <img src={imgNosAcompanhe2} alt="Nos Acompanhe 2" className='img-nos-acompanhe' />

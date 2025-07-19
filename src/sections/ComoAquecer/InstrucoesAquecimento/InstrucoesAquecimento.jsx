@@ -38,7 +38,7 @@ function InstrucoesAquecimento() {
       <div className="container-instrucoes-aquecimento">
         <div>
           <h1 className="titulo-instrucoes-de-aquecimento">
-            INSTRUÇÕES DE AQUECIMENTO
+            Instruções de aquecimento
           </h1>
           <ul>
             <li>

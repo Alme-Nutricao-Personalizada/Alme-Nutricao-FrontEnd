@@ -5,7 +5,7 @@ import "./ComoAquecer.css";
 function ComoAquecer() {
   return (
     <div className="como-aquecer">
-      <Titulo titulo="COMO AQUECER?" />
+      <Titulo titulo="Como aquecer?" />
 
       <div className="container-como-aquecer">
         <div className="overlay-como-aquecer" />

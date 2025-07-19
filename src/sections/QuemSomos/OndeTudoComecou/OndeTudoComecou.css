@@ -70,6 +70,10 @@
     margin-top: 0;
     margin-bottom: 2%;
   }
+
+  .container-imagem-suelie-cris {
+  height: 20vh;
+}
 }
 
 @media (min-width: 1024px) {
@@ -82,7 +86,6 @@
   .container-imagem-suelie-cris {
     max-width: 1920px; /* ou o valor desejado */
     width: 100%;
-    height: 60vh; /* ajuste conforme necessário */
     margin:auto; /* centraliza horizontalmente */
     overflow: hidden;
     position: relative;

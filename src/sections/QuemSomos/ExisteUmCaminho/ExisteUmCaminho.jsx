@@ -5,7 +5,7 @@ import Titulo from "../../../components/Titulo/Titulo";
 function ExisteUmCaminho() {
   return (
     <div className="container-existe-caminho-diferente">
-      <Titulo titulo="EXISTE UM CAMINHO DIFERENTE" />
+      <Titulo titulo="Existe um caminho diferente" />
 
       <p className="texto-existe-caminho-diferente">
         Um caminho onde a nutrição não é sinônimo de privação. Onde as dietas

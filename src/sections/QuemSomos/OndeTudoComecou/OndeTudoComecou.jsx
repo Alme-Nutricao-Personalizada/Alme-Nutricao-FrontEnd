@@ -28,7 +28,7 @@ function OndeTudoComecou() {
 
     return (
         <div className='container-quem-somos-onde-tudo-comecou'>
-            <Titulo titulo="ONDE TUDO COMEÇOU" />
+            <Titulo titulo="Onde tudo começou" />
             <div className='container-onde-tudo-comecou'>
                 <p className='text-onte-tudo-comecou'>Uma metodologia criada há mais de 10 anos, que une nutrição, praticidade e o 
                     sabor que você nunca imaginou que uma alimentação saudável poderia ter!</p>

@@ -1,7 +1,7 @@
 .container-img-entre-em-contato {
   position: relative;
   width: 100vw;
-  height: 40vh;
+  height: 30vh;
   margin-left: calc(-50vw + 50%);
   display: flex;
   overflow: hidden;
@@ -19,6 +19,7 @@
 .imgFechandoSacola {
   background-image: url("../../assets/imgsMobile/imgSacolaFechando.jpg");
   background-position: 40% 40%;
+  object-fit: cover;
   background-repeat: no-repeat;
   width: 100%;
   image-rendering: -webkit-optimize-contrast;
@@ -115,7 +116,6 @@
   .container-img-entre-em-contato {
     position: relative;
     width: 100vw;
-    height: 50vh;
     margin-left: calc(-50vw + 50%);
     display: flex;
     overflow: hidden;
@@ -127,6 +127,7 @@
     background-repeat: no-repeat;
     width: 100%;
     background-position: 45% center;
+    background-size: cover;
   }
 }
 
