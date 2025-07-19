@@ -27,7 +27,7 @@ function EntreEmContato() {
   }, []);
 
   return (
-    <div>
+    <div className="body-entre-em-contato">
       <div className="container-img-entre-em-contato">
         <link rel="preload" href={mobileBg} as="image" media="(max-width: 767px)" />
         <link rel="preload" href={desktopBg} as="image" media="(min-width: 768px)" />
